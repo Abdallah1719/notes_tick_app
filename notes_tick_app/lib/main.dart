@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'package:notes_tick_app/presentation/screens/notes_screen.dart';
+
 
 void main() {
   runApp(const NotesApp());
