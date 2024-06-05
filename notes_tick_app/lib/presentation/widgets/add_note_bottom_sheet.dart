@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:notes_tick_app/presentation/widgets/custom_button.dart';
 import 'package:notes_tick_app/presentation/widgets/custom_text_form_filed.dart';
 
 class AddNoteBottomSheet extends StatelessWidget {
@@ -19,6 +20,10 @@ class AddNoteBottomSheet extends StatelessWidget {
           hint: 'subtitle',
           maxlines: 6,
         ),
+        SizedBox(
+          height: 32,
+        ),
+        CustomBUtton(),
       ],
     );
   }
