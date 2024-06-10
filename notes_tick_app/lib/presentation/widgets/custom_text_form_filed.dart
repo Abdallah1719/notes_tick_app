@@ -19,14 +19,14 @@ class CustomTextFormField extends StatelessWidget {
           return null;
         }
       },
-      cursorColor: Kprimarycolor,
+      cursorColor: kPrimarycolor,
       maxLines: maxlines,
       decoration: InputDecoration(
         hintText: hint,
-        hintStyle: const TextStyle(color: Kprimarycolor),
+        hintStyle: const TextStyle(color: kPrimarycolor),
         border: buildBorder(),
         enabledBorder: buildBorder(),
-        focusedBorder: buildBorder(Kprimarycolor),
+        focusedBorder: buildBorder(kPrimarycolor),
       ),
     );
   }
